@@ -5,13 +5,29 @@ Semester 3 — Version Control & Daily Workflow Standard
 ## Date: 05-09-2026
 
 **Today's Work:**
+- Completed Week 4 / Session 4 Class Problems on Constructors & Java Keywords (LibraryBook, Employee, LateFeeAccount, SrmStudent, PaymentProcessor).
+- Completed Week 4 / Session 4 Assignment Problems on Constructors & Java Keywords (Participant, Item, ParkingTicket, MembershipCard, CanteenPayment).
+- Verified compilation and test outputs for all 10 Week 4 programs.
+- Pushed branch feature/session_4 to remote.
+
+**Next Session Plan:**
+- Begin Week 5 session problems.
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 05-09-2026
+
+**Today's Work:**
 - Completed Week 3 / Session 3 Class Problems on OOP, Classes, and Objects (PlacementRecord, MessWallet, Course, IdCard, Student).
 - Completed Week 3 / Session 3 Assignment Problems on OOP, Classes, and Objects (BookInventory, PayrollAccount, Employee, HallTicket, CompanyEmployee).
 - Verified compilation and test outputs for all 10 OOP programs.
 - Pushed branch feature/session_3 to remote.
 
 **Next Session Plan:**
-- Begin Session 4 topics and problems.
+- Work on Week 4 session problems on Constructors and Java Keywords.
 
 **Issues Faced:**
 - None
