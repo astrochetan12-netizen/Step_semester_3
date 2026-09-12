@@ -2,6 +2,22 @@
 
 Semester 3 — Version Control & Daily Workflow Standard
 
+## Date: 12-09-2026
+
+**Today's Work:**
+- Completed Week 6 Class Practice Problems on Access Modifiers, Encapsulation & Object Modeling (AccessChecker, MovieTicket, PremiumMovieTicket, CineScreen, MovieBookingProfile, BookingReceipt, GroupBookingReceipt, NightlySettlement).
+- Completed Week 6 Assignment Problems on Access Modifiers, Encapsulation & Object Modeling (AccessChecker, LibraryMember, BookInventory, LoanReceipt, ReferenceOnlyLoanReceipt, CirculationLedger).
+- Verified compilation, defensive copying, immutability, and test outputs for all Week 6 programs.
+- Pushed branch feature/session_5 and feature/session_6 to remote.
+
+**Next Session Plan:**
+- Continue with subsequent course modules and projects.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 05-09-2026
 
 **Today's Work:**
@@ -11,7 +27,7 @@ Semester 3 — Version Control & Daily Workflow Standard
 - Pushed branch feature/session_4 to remote.
 
 **Next Session Plan:**
-- Begin Week 5 session problems.
+- Begin Week 5 / Week 6 session problems.
 
 **Issues Faced:**
 - None
