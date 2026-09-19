@@ -2,6 +2,22 @@
 
 Semester 3 — Version Control & Daily Workflow Standard
 
+## Date: 19-09-2026
+
+**Today's Work:**
+- Completed Week 6 / Session 6 Class Practice Problems on Inheritance, Polymorphism & Defensive Copying (LibraryMember, StudentMember, HonorsStudentMember, FacultyMember).
+- Completed Week 6 / Session 6 Assignment Problems on Inheritance, Polymorphism & Defensive Copying (GymMember, PremiumMember, EliteMember, GroupClassMember).
+- Verified constructor validation, multilevel and hierarchical inheritance, defensive copying for fine/fee histories, and polymorphic batch reporting.
+- Pushed branch feature/session_6 to remote.
+
+**Next Session Plan:**
+- Begin Week 7 course modules and topics.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 12-09-2026
 
 **Today's Work:**
