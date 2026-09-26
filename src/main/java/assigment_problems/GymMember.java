@@ -66,7 +66,6 @@ public class GymMember {
     }
 
     public void payFee(int amount, String mode) {
-        // the two-argument overload only records the mode before delegating to the one-argument version
         payFee(amount);
     }
 
@@ -181,7 +180,6 @@ public class GymMember {
         try {
             new GymMember("GM1", 1000);
         } catch (IllegalArgumentException e) {
-            // expected
         }
 
         System.out.println(signUpBatch(new String[]{"MEM1", "GM1", "MEM2", " ", "MEM3"}, 1000));

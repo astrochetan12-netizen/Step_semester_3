@@ -36,13 +36,13 @@ public class GroupClassMember extends GymMember {
         PremiumMember premiumMember = new PremiumMember("MEM2", 2000, "Coach Riya");
         premiumMember.attendSession();
         premiumMember.attendSession();
-        premiumMember.attendSession(); // 3
+        premiumMember.attendSession();
         eliteMember.attendSession();
-        eliteMember.attendSession(); // 2
+        eliteMember.attendSession();
         groupClassMember.attendSession();
         groupClassMember.attendSession();
         groupClassMember.attendSession();
-        groupClassMember.attendSession(); // 4
+        groupClassMember.attendSession();
 
         GymMember[] members = {premiumMember, eliteMember, groupClassMember};
         System.out.println("Total sessions attended: " + GymMember.getTotalSessionsAttended(members));

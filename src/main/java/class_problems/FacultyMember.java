@@ -35,11 +35,11 @@ public class FacultyMember extends LibraryMember {
 
         StudentMember studentMember = new StudentMember("STU2", 3, "CSE");
         studentMember.borrowBook();
-        studentMember.borrowBook(); // 2
-        honorsMember.borrowBook(); // 1
+        studentMember.borrowBook();
+        honorsMember.borrowBook();
         facultyMember.borrowBook();
         facultyMember.borrowBook();
-        facultyMember.borrowBook(); // 3
+        facultyMember.borrowBook();
 
         LibraryMember[] members = {studentMember, honorsMember, facultyMember};
         System.out.println("Total books borrowed: " + LibraryMember.getTotalBooksBorrowed(members));

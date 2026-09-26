@@ -38,7 +38,6 @@ public class LibraryMember {
     }
 
     public void borrowBook(String genre) {
-        // records the genre before delegating to the no-argument version
         borrowBook();
     }
 
@@ -174,7 +173,6 @@ public class LibraryMember {
         try {
             new LibraryMember("LB1", 3);
         } catch (IllegalArgumentException e) {
-            // expected
         }
 
         System.out.println(enrollBatch(new String[]{"STU1", "LB1", "STU2", " ", "STU3"}, 3));
