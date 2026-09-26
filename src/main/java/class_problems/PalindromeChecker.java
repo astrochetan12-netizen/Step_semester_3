@@ -67,7 +67,6 @@ public class PalindromeChecker {
         System.out.println("Input: \"" + text + "\"");
         displayResult(text);
 
-        // Also demonstrate with alternate sample case if default was run
         if (text.equals("madam")) {
             System.out.println("\nInput: \"hello\"");
             displayResult("hello");

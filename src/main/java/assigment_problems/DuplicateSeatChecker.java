@@ -6,7 +6,6 @@ public class DuplicateSeatChecker {
         for (int i = 0; i < seatNumbers.length; i++) {
             for (int j = i + 1; j < seatNumbers.length; j++) {
                 if (seatNumbers[i] == seatNumbers[j]) {
-                    // Check if seatNumbers[i] was already reported previously
                     boolean alreadyReported = false;
                     for (int k = 0; k < i; k++) {
                         if (seatNumbers[k] == seatNumbers[i]) {

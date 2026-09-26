@@ -49,7 +49,6 @@ public class BMICalculator {
                 scanner.close();
             }
         } catch (IOException e) {
-            // Default demo data used
         }
 
         System.out.println("Sample Individual Outputs:");

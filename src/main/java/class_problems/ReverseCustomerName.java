@@ -33,7 +33,6 @@ public class ReverseCustomerName {
                 scanner.close();
             }
         } catch (IOException e) {
-            // Default used
         }
 
         String reversed = reverseCustomerName(customerName);
