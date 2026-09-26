@@ -1,12 +1,10 @@
 public class LibraryMember {
 
-    // Problem 1: Field visibility specifications
     private String membershipPin;
     String branchCode;
     protected double finesOwed;
     public String displayName;
 
-    // Problem 4: JavaBean properties
     private String membershipId;
     private String name;
     private boolean premiumMember;
@@ -25,7 +23,6 @@ public class LibraryMember {
             this.membershipId = membershipId;
             this.membershipIdSet = true;
         }
-        // subsequent calls are silently ignored (write-once)
     }
 
     public String getName() {
@@ -48,7 +45,6 @@ public class LibraryMember {
         if (securityAnswer != null) {
             this.securityAnswer = "HASH:" + securityAnswer.hashCode();
         }
-        // write-only: no getter exists anywhere on the class
     }
 
     public static void main(String[] args) {
@@ -58,7 +54,7 @@ public class LibraryMember {
         m.setPremiumMember(true);
         System.out.println("Membership ID: " + m.getMembershipId());
 
-        m.setMembershipId("FAKE-0000"); // should be silently ignored
+        m.setMembershipId("FAKE-0000");
         System.out.println("Membership ID after re-set: " + m.getMembershipId());
         System.out.println("isPremiumMember: " + m.isPremiumMember());
 

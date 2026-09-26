@@ -34,13 +34,13 @@ public class BookInventory {
         b.checkOut();
         b.checkOut();
         b.checkOut();
-        b.checkOut(); // 4th attempt: silently rejected
+        b.checkOut();
         System.out.println("Available after 4 checkouts (total 3): " + b.getCopiesAvailable());
 
         b.checkIn();
         b.checkIn();
         b.checkIn();
-        b.checkIn(); // 4th attempt: silently rejected
+        b.checkIn();
         System.out.println("Available after 4 checkins (total 3): " + b.getCopiesAvailable());
     }
 }

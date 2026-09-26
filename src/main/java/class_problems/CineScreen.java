@@ -37,12 +37,12 @@ public class CineScreen {
         CineScreen c = new CineScreen(2);
         c.bookSeat();
         c.bookSeat();
-        c.bookSeat(); // 3rd attempt: rejected
+        c.bookSeat();
         System.out.println("Seats available after 3 bookings on screen of 2: " + c.getSeatsAvailable());
 
         c.cancelBooking();
         c.cancelBooking();
-        c.cancelBooking(); // 3rd attempt: rejected
+        c.cancelBooking();
         System.out.println("Seats available after 3 cancellations on screen of 2: " + c.getSeatsAvailable());
     }
 }
