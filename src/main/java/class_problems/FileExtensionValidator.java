@@ -2,12 +2,12 @@ public class FileExtensionValidator {
 
     public static String validateFileExtension(String filename) {
         if (filename == null) {
-            return "Rejected — invalid file type";
+            return "Rejected â€” invalid file type";
         }
 
         int dotIndex = filename.lastIndexOf('.');
         if (dotIndex == -1 || dotIndex == filename.length() - 1) {
-            return "Rejected — invalid file type";
+            return "Rejected â€” invalid file type";
         }
 
         String extension = filename.substring(dotIndex + 1);
@@ -17,7 +17,7 @@ public class FileExtensionValidator {
             extension.equalsIgnoreCase("zip")) {
             return "Accepted";
         } else {
-            return "Rejected — invalid file type";
+            return "Rejected â€” invalid file type";
         }
     }
 
